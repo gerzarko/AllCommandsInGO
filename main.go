@@ -1,12 +1,11 @@
 package main
 
 import (
-	"fmt"
+	// "fmt"
 	"main/commands"
 )
 
 func main() {
-    retorno := commands.Cd()
-    fmt.Println(retorno)
+     commands.Cat()
     // commands.LsTree()
 }
